@@ -1,0 +1,37 @@
+@charset "utf-8";
+.wrap{
+    width: 1200px;
+    height: 820px;
+    background-color: rgb(0, 0, 0);
+}
+/* header영역 */
+.header{
+    width: 1200px;
+    height: 120px;
+    text-align: center;
+    background-color: rgb(162, 162, 255);
+}
+/* A영역 */
+.side{
+    width: 300px;
+    height: 600px;
+    float: left;
+    text-align: center;
+    background-color: rgb(122, 255, 173);
+    }
+.bon{
+    width: 900px;
+    height: 600px;
+    float: left;
+    text-align: center;
+    background-color: rgb(255, 119, 119);
+}
+/* footer영역 */
+.foot{
+    width: 1200px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    background-color: rgb(114, 227, 255);
+}
+

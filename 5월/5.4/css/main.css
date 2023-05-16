@@ -1,0 +1,47 @@
+@charset "utf-8";
+a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-size: 18px;
+    font-weight: bold;
+}
+h1{
+    width: 200px;
+    margin: 0% auto;    
+    color: rgba(255,255,255,0.8);
+    background-color: black;
+    text-align: center;
+    text-shadow:2px 3px 3px #fff ;
+}    
+nav{
+    background-color: rgb(0, 73, 49);
+    width: 750px;
+    margin: 0% auto;
+    box-shadow: 7px 7px 5px #000000;
+}
+ul{
+    list-style: none;
+    width: 100px;
+    border: 3px solid #222;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 19px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+p{
+    
+}
+.tran1{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.tran2{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.tran3{
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}

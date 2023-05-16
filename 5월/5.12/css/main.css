@@ -1,0 +1,142 @@
+@charset "utf-8";
+*{
+    list-style: none;
+    font-size: 13px;
+
+}
+.cat{
+    width: 100%;
+    height: 100%;
+    
+}
+.cat img{
+    width: 230px;
+    height: 200px;
+    
+}
+/* cat1 */
+.cat1{
+    width: 980px; 
+    height: 200px;
+}
+.cat1 li{
+    float: left;
+    height: 250px;
+    border: 1px solid #222;
+}
+.cat1 .a{
+    filter: brightness(0%);
+}
+.cat1 .b{
+    filter: brightness(50%);
+}
+.cat1 .c{
+    filter: brightness(100%);
+}
+.cat1 .d{
+    filter: brightness(200%);
+}
+/* cat2 */
+.cat2 {  
+    width: 480px;
+    height: 200px;
+    margin-top: 140px;
+}
+.cat2 li{
+    float: left;
+    border: 1px solid #222;
+    height: 250px;
+}
+.cat2 .a1{
+    opacity: 0.5;
+}
+.cat44{
+    background-color: rgb(0, 23, 97);
+}
+
+/* 그라데이션 */
+.linear{
+    width: 650px;
+    height: 250px;
+    margin-top: 100px;
+}
+.linear1{
+    background-image: url(../images/cat.jpg);
+    width: 230px;
+    height: 200px;
+    background-size: cover;
+}
+.linear li{
+    border: 1px solid black;
+    width: 230px;
+    height: 250px;
+    float: left;
+}
+.linear2{
+    background-image: linear-gradient(rgba(0, 102, 219, 0.5), rgba(255, 0, 0, 0.5)), url(../images/cat.jpg);
+    width: 230px;
+    height: 200px;
+    background-size: cover;
+}
+/* text */
+.name{
+    width: 100%;
+    height: 10px;
+}
+.name p{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.long{
+    margin-top: 25px;
+    width: 100%;
+    height: 10px;
+    background-size: 100% 10px;
+    background:linear-gradient(
+        90deg,
+        blue 0%,blue 33%,
+        green 33%,green 66%,
+        red 66%, red 100%
+        );
+}
+.text{
+    margin-top: 40px;
+    width: 300px;
+    /* border-radius: 50%; */
+    height: 300px;
+    background:radial-gradient(
+        
+    );
+}
+.text-linear{    
+    width: 200px;
+    height: 200px;
+    background: repeating-linear-gradient(
+        yellow,red 20px
+    ) 
+}
+.text-radial{
+    width: 200px;
+    height: 200px;
+    background: repeating-radial-gradient(
+        circle,white,white 10%,red 10%
+        ,red 20%
+    );
+}
+.nam:hover{
+    
+    font-size: 60px;
+    font-weight: 900;
+    background: linear-gradient(
+    rgb(5, 20, 226), rgb(0, 121, 36)
+    );
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.nam{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(49, 49, 49);    
+}

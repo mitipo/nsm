@@ -1,0 +1,188 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+body{
+    font-size: 14px;
+    font-family: fontello;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(
+        to bottom, rgba(245,95,215,0.5),
+        rgba(66,23,183,0.8)),
+        url("../images/back.jpg")
+        left bottom no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrap{
+    height: 1220px;
+    width: auto;
+    position: relative;
+}
+/* header */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    line-height: 100px;
+}
+header a{
+    color: rgb(59, 0, 99);
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 40px;    
+    float: left;
+}
+.icon{
+    float: right;
+    margin-right: 30px;
+}
+/* 폰텔로적용 */
+.icon-mail-alt{
+    content: "";
+    color: rgb(165, 0, 91);
+    font-size: 30px;
+}
+.icon-handshake-o{
+    content: "";
+    color: rgb(107, 0, 0);
+    font-size: 30px;
+}
+.icon-volume-up{
+    content: "";
+    color: rgb(0, 173, 165);
+    font-size: 30px;
+}
+.icon-rocket{
+    content: "";
+    color: rgb(0, 37, 138);
+    font-size: 30px;
+}
+.icon-bluetooth-b{
+    content: "";
+    color: rgb(224, 167, 44);
+    font-size: 30px;
+}
+/* section */
+section{
+    width: 73%;
+    margin: 100px auto;
+    background-color: antiquewhite;
+}
+.bg{
+    width: 200px;
+    height: 300px;
+    float: left;
+    background-color: aqua;
+    position: relative;
+    box-shadow: 100px 100px 80px 0 rgba(0, 0, 0, 0.5);
+}
+.bg img{
+    width: 200px;
+    height: 300px;
+}
+.bg span{
+    width: 200px;
+    height: 300px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top,
+    rgba(0,0,0,0.9),rgba(0,0,0,0.1)
+    );
+    opacity: 0;
+    transition: all ease-in-out 0.4s;
+}
+/* hover */
+.bg:hover span{
+    opacity: 1;
+}
+.info{
+    width: 70%;
+    height: 890px;
+    float: right;
+    position: relative;
+    /* background-color: aquamarine; */
+}
+.info h1{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.text{
+    position: absolute;
+    bottom: -10px;
+    /* background-color: brown; */
+    /* text-align: center; */
+    color: white;
+}
+.text h2{
+    font-weight: 800;
+    margin-left: 350px;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 60px;
+    line-height: 80px;
+}
+.text p{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.bg2{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    bottom: 270px;
+    left: 300px;
+    box-shadow: 100px 100px 80px 0 rgba(0, 0, 0, 0.5);
+}
+.bg2 img{
+    width: 400px;
+    height: 200px;
+}
+.bg2 span{
+    width: 400px;
+    height: 200px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../images/toto.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: all ease-in-out 0.9s;
+}
+.bg2:hover span{
+    opacity: 1;
+}
+/* footer */
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: darkgray;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+footer p{
+    font-size: 50px;
+    line-height: 100px;
+    color: white;
+}

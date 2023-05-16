@@ -1,0 +1,100 @@
+@charset "utf-8";
+.wrap{
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+    background-color: rgb(88, 177, 255);
+}
+.inner{
+    margin: 0% auto;
+    width: 1200px;
+    height: 00px;
+    background-color: black;
+}
+/* header영역 */
+.header{
+    width: 1200px;
+    height: 100px;
+    background-color: blue;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background-color: rgb(255, 52, 194);
+    line-height: 100px;
+}
+.menu{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background-color: rgb(47, 172, 172);
+    line-height: 100px;
+}
+/* A영역 */
+.submenu{
+    width: 1200px;
+    height: 150px;
+    background-color: rgb(83, 129, 255);
+    line-height: 150px;
+}
+/* B영역 */
+.slide{
+    width: 1200px;
+    height: 150px;
+    background-color: rgb(173, 197, 35);
+    line-height: 150px;
+}
+/* C영역 */
+.contents{
+    background-color: aquamarine;
+}
+.notice{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: rgb(60, 114, 5);
+    line-height: 200px;
+}
+.banner{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: chartreuse;
+    line-height: 200px;
+}
+.link{
+    width: 400px;
+    height: 200px;
+    float: left;
+    background-color: rgb(22, 44, 1);
+    line-height: 200px;
+}
+/* footer영역 */
+.footer{
+    background-color: rgb(105, 115, 255);
+}
+.f-logo{
+    width: 400px;
+    height: 100px;
+    float: left;
+    background-color: rgb(255, 0, 0);
+    line-height: 100px;
+}
+.copyright{
+    width: 400px;
+    height: 100px;
+    float: left;
+    background-color: rgb(255, 125, 102);
+    line-height: 100px;
+}
+.SNS{
+    width: 400px;
+    height: 100px;
+    float: left;
+    background-color: rgb(248, 66, 10);
+    line-height: 100px;
+}
+
+
+

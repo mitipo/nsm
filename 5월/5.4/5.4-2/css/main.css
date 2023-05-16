@@ -1,0 +1,17 @@
+@charset "utf-8";
+div{
+    position: relative;
+    width: 680px;
+    height: 400px;
+    background-color: aqua;
+    background: url(../images/a1.jpg) no-repeat;
+    margin: 0% auto;
+}
+h1{ 
+    font-size: 80px; 
+    position: absolute;
+    right: 90px;
+    bottom: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow:2px 3px 3px #000000 ;
+}

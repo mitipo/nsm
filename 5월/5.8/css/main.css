@@ -1,0 +1,81 @@
+@charset = "UTF-8";
+.wrap{
+    width: 1200px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    margin: 0% auto;
+}
+/* header영역 */
+.header{
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(0, 48, 33);
+}
+nav > h1{
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    float: left;
+    line-height: 8px;
+    font-size: 50px;
+    
+}
+nav > ul > li{
+    line-height: 100px;
+    margin-left: 135px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);  
+    display: inline-block; 
+    float:left: ;    
+}
+nav > ul{
+    list-style: none;
+}
+.h1{
+    line-height: 30px;
+    font-size: 17px;
+    margin-left: 70px;
+}
+.a{
+    float: left;
+    margin-left: 70px;
+    margin-right: 40px;
+    
+}
+img{
+    border-radius: 5%;
+}
+.a1{
+    width: 800px;
+    margin: auto;
+    margin-top: 35px;
+    line-height: 22px;
+    font-size: 14px;
+}
+.h2{
+    line-height: 30px;
+    margin-left: 70px;
+    font-size: 17px;
+}
+.b{
+    float: left;
+    margin-left: 70px;  
+    margin-right: 40px;
+}
+.b1{
+    width: 1200px;
+    margin: auto;
+    margin-top: 65px;
+    font-size: 14px;
+    line-height: 22px;
+}
+footer > ul{
+    list-style: none;
+    margin-left: 60%;
+    
+
+}
+footer >ul > li{
+    float: left;
+    margin-right: 20px;
+    font-size: 13px;
+}

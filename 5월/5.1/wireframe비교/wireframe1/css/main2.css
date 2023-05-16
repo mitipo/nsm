@@ -1,0 +1,82 @@
+@charset "utf-8";
+.wrap{
+}
+
+.inner{
+    margin:0 auto;
+    text-align:center;
+    width:1200px;
+    background-color:rgb(193, 209, 98);
+    }
+/* header영역 */
+.header{
+    width:1200px;
+    height:100px;
+    background-color:rgb(67, 81, 82);
+    line-height:100px;}
+.logo{
+    width:20%;
+    height:100px;
+    background-color:aqua;
+    float:left;}
+.menu{
+    width:80%;
+    height:100px;
+    background-color:rgb(24, 48, 49);
+    float:left;}
+/* B영역 */
+.slide{
+    background-color: blue;
+    width:1200px;
+    height:300px;
+    line-height:150px;}
+.slide-1{
+    width:1200px;
+    height:150px;
+    background-color:rgb(67, 81, 82);}
+.slide-2{
+    width:1200px;
+    height:150px;
+    background-color:rgb(24, 124, 131);}
+/* C영역 */
+.content{
+    width:1200px;
+    height:200px;
+    background-color:rgb(107, 29, 101);
+    line-height:200px;}
+.gall{
+    width:400px;
+    height:200px;
+    background-color:rgb(50, 83, 54);
+    float:left;}
+.gallary{
+    width:400px;
+    height:200px;
+    background-color:rgb(169, 202, 164);
+    float:left;}
+.banner{
+    width:400px;
+    height:200px;
+    background-color:rgb(103, 165, 122);
+    float:left;}
+/* footer영역 */
+.footer{
+    width:1200px;
+    height:100px;
+    background-color:rgb(107, 29, 101);
+    line-height:100px;}
+.f-logo{
+    width:200px;
+    height:100px;
+    background-color:rgb(170, 166, 209);
+    float:left;}
+.copyright{
+    width:800px;
+    height:100px;
+    background-color:rgb(105, 109, 165);
+    float:left;}
+.familly{
+    width:200px;
+    height:100px;
+    background-color:rgb(70, 69, 148);
+    float:left;}
